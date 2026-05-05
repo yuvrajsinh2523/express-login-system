@@ -1,7 +1,7 @@
-/* ===== FONT ===== */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
-/* ===== ROOT COLORS ===== */
+/
 :root {
   --bg: #0f172a;
   --card: rgba(255,255,255,0.08);
@@ -16,7 +16,6 @@ body.light {
   --text: #0f172a;
 }
 
-/* ===== BASE ===== */
 * {
   margin: 0;
   padding: 0;
