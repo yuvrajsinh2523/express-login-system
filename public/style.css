@@ -32,7 +32,7 @@ body {
   align-items: center;
 }
 
-/* ===== ANIMATED BACKGROUND ===== */
+
 body::before {
   content: "";
   position: absolute;
@@ -48,7 +48,7 @@ body::before {
   to { transform: translate(100px, 100px); }
 }
 
-/* ===== CARD ===== */
+
 .container {
   background: var(--card);
   backdrop-filter: blur(20px);
@@ -60,7 +60,7 @@ body::before {
   animation: fadeIn 1s ease;
 }
 
-/* ===== INPUT ===== */
+
 .input-group {
   margin: 15px 0;
   text-align: left;
@@ -79,7 +79,7 @@ body::before {
   margin-top: 5px;
 }
 
-/* ===== BUTTON ===== */
+
 .btn {
   margin-top: 20px;
   padding: 10px;
@@ -97,7 +97,7 @@ body::before {
   transform: scale(1.05);
 }
 
-/* ===== LINK ===== */
+
 .link {
   margin-top: 15px;
   display: block;
@@ -105,12 +105,12 @@ body::before {
   text-decoration: none;
 }
 
-/* ===== HEADING ===== */
+
 h1 {
   margin-bottom: 20px;
 }
 
-/* ===== THEME BUTTON ===== */
+
 .theme-toggle {
   position: absolute;
   top: 20px;
@@ -121,7 +121,7 @@ h1 {
   background: var(--card);
 }
 
-/* ===== ANIMATION ===== */
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px);}
   to { opacity: 1; transform: translateY(0);}
