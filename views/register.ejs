@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="/style.css">
+<body>
+
+<div class="theme-toggle" onclick="toggleTheme()">🌙</div>
+
+<div class="container">
+    <br>
+  <h1>Register</h1>
+
+  <form action="/home/register" method="post">
+
+    <div class="input-group">
+      <label>Name</label>
+      <input type="text" name="name">
+    </div>
+
+    <div class="input-group">
+      <label>Email</label>
+      <input type="text" name="email">
+    </div>
+
+    <div class="input-group">
+      <label>Phone</label>
+      <input type="text" name="phonenumber">
+    </div>
+
+    <div class="input-group">
+      <label>Password</label>
+      <input type="password" name="password">
+    </div>
+
+    <button class="btn">Register</button>
+
+  </form>
+
+  <a class="link" href="/home/login">Already have account?</a>
+</div>
+</body>
+
+<script>
+function toggleTheme(){
+  document.body.classList.toggle("light");
+}
+</script>
+</html>
